@@ -38,7 +38,7 @@ const Certifications = () => {
         en: 'Validates expertise in building modern web applications using HTML, CSS, JavaScript, and developer tools.',
         de: 'Bestätigt die Expertise im Aufbau moderner Webanwendungen mit HTML, CSS, JavaScript und Entwicklerwerkzeugen.'
       },
-      badge: 'IBM-Certification-1.png',
+      badge: '/IBM-Certification-1.png',
       credentialUrl: 'https://coursera.org/verify/79GF2C42SK24 '
     },
     {
@@ -55,7 +55,7 @@ const Certifications = () => {
         en: 'Validates skills in Git and GitHub for distributed version control, team collaboration, and open-source contributions in a DevOps environment.',
         de: 'Bestätigt Fähigkeiten in Git und GitHub für verteilte Versionskontrolle, Teamzusammenarbeit und Open-Source-Beiträge in einer DevOps-Umgebung.'
       },
-      badge: 'IBM-Certification-2.png',
+      badge: '/IBM-Certification-2.png',
       credentialUrl: 'https://coursera.org/verify/VGMZ7GT67UVJ'
     },
     {
@@ -72,7 +72,7 @@ const Certifications = () => {
         en: 'Validates proficiency in modern JavaScript development using ES6 features, data structures, DOM manipulation, AJAX, asynchronous programming, and interactive UI design.',
         de: 'Bestätigt die Beherrschung der modernen JavaScript-Entwicklung unter Verwendung von ES6-Funktionen, Datenstrukturen, DOM-Manipulation, AJAX, asynchroner Programmierung und interaktivem UI-Design.'
       },
-      badge: 'IBM-Certification-3.png',
+      badge: '/IBM-Certification-3.png',
       credentialUrl: 'https://coursera.org/verify/SQNGXCKQDDB1 '
     },
     {
@@ -89,7 +89,7 @@ const Certifications = () => {
         en: 'Validates ability to build dynamic, interactive web applications using React, JSX, ES6, and key concepts like props, state, hooks, forms, and Redux.',
         de: 'Bestätigt die Fähigkeit, dynamische, interaktive Webanwendungen mit React, JSX, ES6 und Schlüsselkonzepten wie Props, State, Hooks, Formularen und Redux zu erstellen.'
       },
-      badge: 'IBM-Certification-4.png',
+      badge: '/IBM-Certification-4.png',
       credentialUrl: 'https://coursera.org/verify/4EAWAFUAN9DG'
     },
     {
@@ -106,7 +106,7 @@ const Certifications = () => {
         en: 'Validates ability to develop server-side applications using Node.js, manage packages with npm, build back ends with Express, and create RESTful APIs.',
         de: 'Bestätigt die Fähigkeit, serverseitige Anwendungen mit Node.js zu entwickeln, Pakete mit npm zu verwalten, Back-Ends mit Express zu erstellen und RESTful APIs zu entwickeln.'
       },
-      badge: 'IBM-Certification-5.png',
+      badge: '/IBM-Certification-5.png',
       credentialUrl: 'https://coursera.org/verify/PIOZFSB2MMB5 '
     },
     {
@@ -123,7 +123,7 @@ const Certifications = () => {
         en: 'Validates understanding of cloud-native concepts, CI/CD, Agile, and DevOps culture, with practical skills in MongoDB, CRUD operations, and Agile tools like Zenhub.',
         de: 'Bestätigt das Verständnis von cloud-nativen Konzepten, CI/CD, Agile und DevOps-Kultur, mit praktischen Fähigkeiten in MongoDB, CRUD-Operationen und Agile-Tools wie Zenhub.'
       },
-      badge: 'IBM-Certification-6.png',
+      badge: '/IBM-Certification-6.png',
       credentialUrl: 'https://coursera.org/verify/NCUZIMQNYFCU '
     },
     // Add more certifications...

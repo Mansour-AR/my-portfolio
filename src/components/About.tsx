@@ -23,7 +23,7 @@ const About = () => {
       icon: <Briefcase size={20} /> 
     },
     { 
-      value: '50+', 
+      value: '15+', 
       label: {
         en: 'Projects Completed',
         de: 'Projekte abgeschlossen'
@@ -60,9 +60,9 @@ const About = () => {
             className="md:w-1/3 mb-10 md:mb-0 md:pr-10"
           >
             <div className="relative">
-            <div className="w-80 h-96 md:w-96 md:h-96 rounded-2xl overflow-hidden border-4 border-indigo-500/20 shadow-lg">
+            <div className="w-80 h-[36rem] md:w-96 md:h-[36rem] rounded-2xl overflow-hidden border-4 border-indigo-500/20 shadow-lg">
                 <img
-                  src="/my-foto.jpg"
+                  src="/my-foto.png"
                   alt="Developer"
                   className="w-full h-full object-cover"
                 />

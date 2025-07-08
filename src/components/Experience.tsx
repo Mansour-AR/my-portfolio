@@ -31,7 +31,7 @@ const Experience = () => {
         en: 'iTech Americas LLC. (Startup)',
         de: 'iTech Americas LLC. (Startup)'
       },
-      period: '08/2024 - Present',
+      period: '08/2024 - 04/2025',
       description: {
         en: 'Leading the development of a monolithic IT platform with responsive front-end interfaces and robust backend services using Laravel and RESTful APIs. Integrating AI microservices with Python and managing live server deployment to optimize performance, security, and team collaboration.',
         de: 'Leitung der Entwicklung einer monolithischen IT-Plattform mit responsiven Front-End-Oberflächen und robusten Backend-Diensten unter Verwendung von Laravel und RESTful APIs. Integration von KI-Mikrodiensten mit Python und Verwaltung der Live-Server-Bereitstellung zur Optimierung von Leistung, Sicherheit und Teamzusammenarbeit.'

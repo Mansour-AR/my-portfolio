@@ -127,47 +127,103 @@ const projects: Project[] = [
   },
   {
     title: {
-      en: 'E-commerce Platform',
-      de: 'E-Commerce-Plattform'
+      en: 'Job Tracker App',
+      de: 'Job Tracker App'
     },
     description: {
-      en: 'A full-featured e-commerce platform with product catalog, cart, checkout, and admin dashboard.',
-      de: 'Eine vollständige E-Commerce-Plattform mit Produktkatalog, Warenkorb, Kasse und Admin-Bereich.'
+      en: 'A responsive job tracking platform with secure authentication and productivity-focused features',
+      de: 'Eine responsive Job Tracking Plattform mit sicheren Authentifizierungsfunktionen und Produktivitätsfokussierten Funktionen'
     },
-    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    src: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a',
-    github: 'https://github.com/yourusername/ecommerce-platform',
-    live: 'https://ecommerce-demo.example.com',
+    tags: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'JWT', 'MongoDB', 'Auth0'],
+    src: '/Dashboard-1.png',
+    github: 'https://github.com/Mansour-AR/job-tracker-app',
+    live: 'https://job-tracker-app-ivory.vercel.app/',
     details: {
       en: [
-        'This project was developed as a complete solution for IT service providers.',
-        'Includes service catalog, contact forms, and client dashboard.',
-        'Built with performance and accessibility in mind.'
+        'The Job Tracker App is a full-stack web application designed to simplify the job search process by helping users organize, track, and analyze their applications in one centralized dashboard. Built with modern web technologies, the platform provides a seamless experience for job seekers to log their applications, monitor progress through different hiring stages, and visualize their success rates with interactive charts. The project was developed in a 30-day sprint, following Agile methodologies with clear milestones, from authentication setup to deployment.',
+        'Security and usability were top priorities, ensuring users could manage their job applications with confidence. The app features JWT-based authentication, real-time status updates, and a mobile-responsive UI for accessibility across devices. By integrating a MongoDB database with a Node.js/Express backend and a React frontend, the platform delivers fast, reliable performance while maintaining clean, maintainable code.',
+        'This project demonstrates my ability to design and deploy a production-ready full-stack application with a focus on user experience, data security, and scalable architecture. It also highlights my proficiency in API development, state management, and data visualization, making it a strong addition to my portfolio as a well-rounded developer.'
       ],
       de: [
-        'Dieses Projekt wurde als Komplettlösung für IT-Dienstleister entwickelt.',
-        'Beinhaltet Servicekatalog, Kontaktformulare und Kunden-Dashboard.',
-        'Mit Fokus auf Leistung und Barrierefreiheit entwickelt.'
+        'Die Job Tracker App ist eine vollständige Webanwendung, die das Job-Suchen vereinfacht, indem Benutzer ihre Bewerbungen organisieren, verfolgen und analysieren können. Die Plattform bietet eine nahtlose Erfahrung für Job-Suchender, indem sie ihre Bewerbungen protokollieren, den Fortschritt durch verschiedene Bewerbungsphasen verfolgen und ihre Erfolgsraten mit interaktiven Diagrammen visualisieren können. Das Projekt wurde in einer 30-Tages-Sprint entwickelt, die Agile-Methoden folgte, von der Authentifizierungssetup bis zur Bereitstellung. Sicherheit und Benutzerfreundlichkeit waren die Hauptanforderungen, damit Benutzer ihre Bewerbungen mit Vertrauen verwalten konnten. Die App verwendet JWT-basierte Authentifizierung, reale Statusaktualisierungen und eine mobile-optimierte Benutzeroberfläche für Barrierefreiheit auf allen Geräten. Durch die Integration einer MongoDB-Datenbank mit einem Node.js/Express-Backend und einem React-Frontend liefert die Plattform schnelle, zuverlässige Leistung bei gleichzeitiger Wartung von sauberem, wartbarem Code.',
+        'Die App verwendet JWT-basierte Authentifizierung, reale Statusaktualisierungen und eine mobile-optimierte Benutzeroberfläche für Barrierefreiheit auf allen Geräten. Durch die Integration einer MongoDB-Datenbank mit einem Node.js/Express-Backend und einem React-Frontend liefert die Plattform schnelle, zuverlässige Leistung bei gleichzeitiger Wartung von sauberem, wartbarem Code.',
+        'Dieses Projekt zeigt meine Fähigkeit, eine produktionsbereite vollständige Webanwendung mit Fokus auf Benutzerfreundlichkeit, Datensicherheit und skalierbarer Architektur zu entwickeln. Es zeigt auch meine Kompetenz bei der Entwicklung von APIs, der Verwaltung von Zustand und der Datenvisualisierung, was es zu einem starken Beitrag zu meinem Portfolio als guter Entwickler macht.',
       ]
     },
     features: {
       en: [
-        'Responsive design for all devices',
-        'Contact form with email notifications',
-        'Service management dashboard',
-        'Client testimonial section'
+        '🌐 Frontend Application',
+        'Fully responsive dashboard built with React + Tailwind CSS',
+        'Interactive data visualizations (Recharts) for application status analytics',
+        'Dynamic job list view with pagination, search, and filtering',
+        'Form validation for job entries with error handling',
+        'Dark mode toggle (Post-MVP) for accessibility',
+        'Seamless API integration via Axios for real-time CRUD operations',
+    
+        '🔐 Authentication & Security',
+        'JWT-based auth via Auth0 with protected routes',
+        'Role-based access control (Post-MVP for career coaches)',
+       
+    
+        '🤖 Automation & AI Features (Post-MVP)',
+        'LinkedIn job link autofill using web scraping to populate job data',
+        'Resume parsing (PDF/text extraction to pre-fill job applications)',
+        'Automated email notifications for interviews (SendGrid/Nodemailer)',
+    
+        '🛠 Backend System',
+        'RESTful API built with Node.js/Express and MongoDB/Mongoose',
+        'Job schema with status tracking (applied/interviewing/offers)',
+        'Rate-limited endpoints with CSRF protection',
+        'Automated backups via MongoDB Atlas',
+    
+        '📈 Results & Impact',
+        'Reduced job search disorganization with centralized tracking',
+        '15% faster application logging via autofill (Post-MVP)',
+        '2-second load times via Vercel edge caching',
+        'Enabled data-driven decisions through status analytics',
+        'Future-ready for AI job-matching capabilities'
       ],
+    
       de: [
-        'Responsives Design für alle Geräte',
-        'Kontaktformular mit E-Mail-Benachrichtigungen',
-        'Service-Management-Dashboard',
-        'Kundenreferenzen-Bereich'
+        '🌐 Frontend-Anwendung',
+        'Vollständig responsives Dashboard mit React und Tailwind CSS',
+        'Interaktive Datenvisualisierung (Recharts) zur Analyse von Bewerbungsstatus',
+        'Dynamische Jobliste mit Paginierung, Suche und Filterfunktion',
+        'Formularvalidierung und Fehlerbehandlung bei Job-Einträgen',
+        'Dark Mode (Post-MVP) zur besseren Zugänglichkeit',
+        'Nahtlose API-Integration über Axios für Echtzeit-CRUD-Operationen',
+    
+        '🔐 Authentifizierung & Sicherheit',
+        'JWT-basierte Authentifizierung über Clerk/Auth0 mit geschützten Routen',
+        'Rollenbasierte Zugriffskontrolle (Post-MVP für Karriere-Coaches)',
+        'DSGVO-konforme Datenverarbeitung zum Schutz der Privatsphäre',
+    
+        '🤖 Automatisierung & KI-Funktionen (Post-MVP)',
+        'Automatisches Ausfüllen von Jobdaten über LinkedIn-Webscraping',
+        'Lebenslauf-Parsing (PDF-/Text-Extraktion zur Vorbefüllung von Bewerbungen)',
+        'Automatisierte E-Mail-Benachrichtigungen zu Interviews (SendGrid/Nodemailer)',
+    
+        '🛠 Backend-System',
+        'RESTful API mit Node.js/Express und MongoDB/Mongoose',
+        'Jobschema mit Statusverfolgung (beworben/Vorstellungsgespräch/Angebot)',
+        'Ratenbegrenzte Endpunkte und CSRF-Schutz',
+        'Automatische Backups über MongoDB Atlas',
+    
+        '📈 Ergebnisse & Wirkung',
+        'Reduzierte Unübersichtlichkeit bei der Jobsuche durch zentrales Tracking',
+        '15% schnelleres Bewerbungs-Logging dank Autofill (Post-MVP)',
+        '2-Sekunden-Ladezeiten durch Vercel Edge Caching',
+        'Datengestützte Entscheidungen durch Bewerbungsanalysen',
+        'Zukunftssichere Architektur für KI-gestütztes Job-Matching'
       ]
     },
     additionalImages: [
-      'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a',
-      'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b',
-      'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d'
+      '/Dashboard-2.png',
+      '/LoginForm.png',
+      '/RegistrationForm.png',
+      '/Job-Cards.png',
+      '/JobCreationForm.png'
+
     ]
   },
   // Other projects would follow the same structure

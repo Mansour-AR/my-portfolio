@@ -39,17 +39,17 @@ const Projects = () => {
 
     {
       title: {
-        en: 'E-commerce Platform',
-        de: 'E-Commerce-Plattform'
+        en: 'Job Tracker App',
+        de: 'Job Tracker App'
       },
       description: {
-        en: 'A full-featured e-commerce platform with product catalog, cart, checkout, and admin dashboard.',
-        de: 'Eine vollständige E-Commerce-Plattform mit Produktkatalog, Warenkorb, Kasse und Admin-Bereich.'
+        en: 'A responsive job tracking platform with secure authentication and productivity-focused features',
+        de: 'Eine responsive Job Tracking Plattform mit sicheren Authentifizierungsfunktionen und Produktivitätsfokussierten Funktionen'
       },
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      src: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a',
-      github: 'https://github.com/yourusername/ecommerce-platform',
-      live: 'https://ecommerce-demo.example.com',
+      tags: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'JWT', 'MongoDB', 'Auth0'],
+      src: '/Dashboard-1.png',
+      github: 'https://github.com/Mansour-AR/job-tracker-app',
+      live: 'https://job-tracker-app-ivory.vercel.app/',
     },
 
     {

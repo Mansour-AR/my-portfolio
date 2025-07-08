@@ -54,10 +54,10 @@ const Header = () => {
 
 
   const socialLinks: SocialLink[] = [
-    { icon: <Github size={20} />, url: 'https://github.com/yourusername' },
-    { icon: <Linkedin size={20} />, url: 'https://linkedin.com/in/yourusername' },
+    { icon: <Github size={20} />, url: 'https://github.com/Mansour-AR' },
+    { icon: <Linkedin size={20} />, url: 'https://www.linkedin.com/in/mansour-aria-002333261/' },
     { icon: <Twitter size={20} />, url: 'https://twitter.com/yourusername' },
-    { icon: <Mail size={20} />, url: 'mailto:your.email@example.com' },
+    { icon: <Mail size={20} />, url: 'mailto:mansour-aria@gmx.de' },
   ];
 
   return (

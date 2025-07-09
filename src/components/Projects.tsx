@@ -54,17 +54,17 @@ const Projects = () => {
 
     {
       title: {
-        en: 'Task Management App',
-        de: 'Aufgabenverwaltungs-App'
+        en: 'E-Commerce Website & Admin Dashboard (MERN Stack)',
+        de: 'E-Commerce Website & Admin Dashboard (MERN Stack)'
       },
       description: {
-        en: 'A collaborative task management application with real-time updates, teams, and project tracking.',
-        de: 'Eine kollaborative Aufgabenverwaltungsanwendung mit Echtzeit-Updates, Teams und Projektverfolgung.'
+        en: 'A full-featured e-commerce platform with secure checkout, admin dashboard, and real-time inventory and order management.',
+        de: 'Eine voll funktionsfähige E-Commerce-Plattform mit sicherem Checkout, Admin-Dashboard und Echtzeit-Inventar- und Bestellmanagement.'
       },
-      tags: ['Next.js', 'TypeScript', 'Firebase', 'Tailwind CSS'],
-      src: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b',
-      github: 'https://github.com/yourusername/ecommerce-platform',
-      live: 'https://tasks.example.com',
+      tags: ['React.js', 'Redux', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Stripe'],
+      src: '/HomePage.png',
+      github: 'https://github.com/Mansour-AR/ecommerce_hub',
+      live: 'https://ecommerce-hub-beta.vercel.app/',
     },
 
   ];

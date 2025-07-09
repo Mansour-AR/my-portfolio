@@ -226,6 +226,103 @@ const projects: Project[] = [
 
     ]
   },
+   {
+    title: {
+      en: 'E-Commerce Website & Admin Dashboard (MERN Stack)',
+      de: 'E-Commerce Website & Admin Dashboard (MERN Stack)'
+    },
+    description: {
+      en: 'A full-featured e-commerce platform with secure checkout, admin dashboard, and real-time inventory and order management.',
+      de: 'Eine voll funktionsfähige E-Commerce-Plattform mit sicherem Checkout, Admin-Dashboard und Echtzeit-Inventar- und Bestellmanagement.'
+    },
+    tags: ['React.js', 'Redux', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Stripe'],
+    src: '/HomePage.png',
+    github: 'https://github.com/Mansour-AR/ecommerce_hub',
+    live: 'https://ecommerce-hub-beta.vercel.app/',
+    details: {
+      en: [
+        'I developed a full-featured E-Commerce platform with an integrated Admin Dashboard using the MERN stack (MongoDB, Express.js, React.js, Node.js). The platform offers users a seamless online shopping experience with features like product browsing, filtering, a shopping cart, wishlist, user profiles, and secure checkout with payment integration via Stripe or Razorpay. The application is fully responsive, ensuring smooth functionality across all devices, and emphasizes secure user authentication using JWT and Bcrypt.',
+        'The Admin Dashboard empowers administrators with full control over inventory, orders, and users. It includes real-time analytics, CRUD operations, stock management, and downloadable reports, all within an intuitive UI built for efficiency. The backend follows RESTful API principles and is organized with a clean MVC architecture. The project was completed in approximately six weeks, including planning, UI/UX design, development, testing, and deployment using platforms like Vercel and Render.',
+      ],
+      de: [
+        'Ich habe eine voll funktionsfähige E-Commerce-Plattform mit integriertem Admin-Dashboard unter Verwendung des MERN-Stacks (MongoDB, Express.js, React.js, Node.js) entwickelt. Die Plattform bietet den Benutzern ein nahtloses Online-Shopping-Erlebnis mit Funktionen wie Produktdurchsuchen, Filtern, einem Warenkorb, Wunschliste, Benutzerprofilen und sicherem Checkout mit Zahlungsintegration über Stripe oder Razorpay. Die Anwendung ist vollständig responsiv und gewährleistet eine reibungslose Funktionalität auf allen Geräten und legt Wert auf sichere Benutzerauthentifizierung mit JWT und Bcrypt.',
+        'Das Admin-Dashboard ermöglicht Administratoren die vollständige Kontrolle über Inventar, Bestellungen und Benutzer. Es umfasst Echtzeitanalysen, CRUD-Operationen, Bestandsverwaltung und herunterladbare Berichte, alles in einer intuitiven Benutzeroberfläche, die auf Effizienz ausgelegt ist. Das Backend folgt den RESTful API-Prinzipien und ist mit einer sauberen MVC-Architektur organisiert. Das Projekt wurde in etwa sechs Wochen abgeschlossen, einschließlich Planung, UI/UX-Design, Entwicklung, Testen und Bereitstellung über Plattformen wie Vercel und Render.',
+      ]
+    },
+    features: {
+  en: [
+    '🌐 Frontend Application',
+    'Fully responsive storefront and admin dashboard built with React + Tailwind CSS',
+    'Product listing with filtering, sorting, and pagination',
+    'Interactive analytics dashboard using Recharts for sales and user data',
+    'Product detail pages with image gallery and real-time stock info',
+    'Seamless API integration via Axios for dynamic content and CRUD operations',
+    'User profile management with order history and editable account details',
+
+    '🔐 Authentication & Security',
+    'JWT-based authentication with protected user and admin routes',
+    'Role-based access control for admin management',
+    'XSS/CSRF protection, input validation, and rate limiting',
+
+    '🛠 Backend System',
+    'RESTful API built with Node.js/Express and MongoDB/Mongoose',
+    'CRUD operations for products, orders, users, and categories',
+    'Inventory management with automated stock tracking',
+    'File upload for product images and downloadable reports (CSV/PDF)',
+
+    '💳 Payments & Transactions',
+    'Secure checkout with Stripe or Razorpay integration',
+    'Order confirmation system with real-time updates',
+    'Optional email notifications for order status (Post-MVP)',
+
+    '📈 Results & Impact',
+    'Centralized product and order management via admin dashboard',
+    'Fast page loads and mobile-first design for better UX',
+    'Scalable deployment using Vercel (frontend) and Render/AWS (backend)',
+    'Foundation for future enhancements like multi-vendor support and mobile apps'
+  ],
+
+  de: [
+    '🌐 Frontend-Anwendung',
+    'Vollständig responsives Shop-Frontend und Admin-Dashboard mit React und Tailwind CSS',
+    'Produktauflistung mit Filterung, Sortierung und Paginierung',
+    'Interaktives Analyse-Dashboard mit Recharts für Verkaufs- und Nutzerdaten',
+    'Produktdetailseiten mit Bildergalerie und Live-Bestand',
+    'Nahtlose API-Integration über Axios für dynamische Inhalte und CRUD-Operationen',
+    'Benutzerprofilverwaltung mit Bestellhistorie und bearbeitbaren Kontoinformationen',
+
+    '🔐 Authentifizierung & Sicherheit',
+    'JWT-basierte Authentifizierung mit geschützten Benutzer- und Admin-Routen',
+    'Rollenbasierte Zugriffskontrolle für Admins',
+    'XSS-/CSRF-Schutz, Eingabevalidierung und Ratenbegrenzung',
+
+    '🛠 Backend-System',
+    'RESTful API mit Node.js/Express und MongoDB/Mongoose',
+    'CRUD-Operationen für Produkte, Bestellungen, Benutzer und Kategorien',
+    'Bestandsverwaltung mit automatischer Lagerverfolgung',
+    'Datei-Upload für Produktbilder und herunterladbare Berichte (CSV/PDF)',
+
+    '💳 Zahlungen & Transaktionen',
+    'Sicherer Checkout mit Stripe- oder Razorpay-Integration',
+    'Bestellbestätigungssystem mit Echtzeit-Updates',
+    'Optionale E-Mail-Benachrichtigungen zum Bestellstatus (Post-MVP)',
+
+    '📈 Ergebnisse & Wirkung',
+    'Zentrale Verwaltung von Produkten und Bestellungen über das Admin-Dashboard',
+    'Schnelle Ladezeiten und Mobile-First-Design für optimale UX',
+    'Skalierbare Bereitstellung über Vercel (Frontend) und Render/AWS (Backend)',
+    'Basis für zukünftige Erweiterungen wie Multi-Vendor-Unterstützung und mobile Apps'
+  ]
+},
+    additionalImages: [
+      '/CustomerDashboard.png',
+      '/CustomerWishlist.png',
+      '/LoginPage.png',
+      '/RegistrationPage.png',
+      '/ShoppingCart.png',
+
+    ]
+  },
   // Other projects would follow the same structure
 ];
 

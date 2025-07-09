@@ -241,11 +241,11 @@ const projects: Project[] = [
     live: 'https://ecommerce-hub-beta.vercel.app/',
     details: {
       en: [
-        'I developed a full-featured E-Commerce platform with an integrated Admin Dashboard using the MERN stack (MongoDB, Express.js, React.js, Node.js). The platform offers users a seamless online shopping experience with features like product browsing, filtering, a shopping cart, wishlist, user profiles, and secure checkout with payment integration via Stripe or Razorpay. The application is fully responsive, ensuring smooth functionality across all devices, and emphasizes secure user authentication using JWT and Bcrypt.',
+        'I developed a full-featured E-Commerce platform with an integrated Admin Dashboard using the MERN stack (MongoDB, Express.js, React.js, Node.js). The platform offers users a seamless online shopping experience with features like product browsing, filtering, a shopping cart, wishlist, user profiles, and secure checkout with payment integration via Stripe. The application is fully responsive, ensuring smooth functionality across all devices, and emphasizes secure user authentication using JWT and Bcrypt.',
         'The Admin Dashboard empowers administrators with full control over inventory, orders, and users. It includes real-time analytics, CRUD operations, stock management, and downloadable reports, all within an intuitive UI built for efficiency. The backend follows RESTful API principles and is organized with a clean MVC architecture. The project was completed in approximately six weeks, including planning, UI/UX design, development, testing, and deployment using platforms like Vercel and Render.',
       ],
       de: [
-        'Ich habe eine voll funktionsfähige E-Commerce-Plattform mit integriertem Admin-Dashboard unter Verwendung des MERN-Stacks (MongoDB, Express.js, React.js, Node.js) entwickelt. Die Plattform bietet den Benutzern ein nahtloses Online-Shopping-Erlebnis mit Funktionen wie Produktdurchsuchen, Filtern, einem Warenkorb, Wunschliste, Benutzerprofilen und sicherem Checkout mit Zahlungsintegration über Stripe oder Razorpay. Die Anwendung ist vollständig responsiv und gewährleistet eine reibungslose Funktionalität auf allen Geräten und legt Wert auf sichere Benutzerauthentifizierung mit JWT und Bcrypt.',
+        'Ich habe eine voll funktionsfähige E-Commerce-Plattform mit integriertem Admin-Dashboard unter Verwendung des MERN-Stacks (MongoDB, Express.js, React.js, Node.js) entwickelt. Die Plattform bietet den Benutzern ein nahtloses Online-Shopping-Erlebnis mit Funktionen wie Produktdurchsuchen, Filtern, einem Warenkorb, Wunschliste, Benutzerprofilen und sicherem Checkout mit Zahlungsintegration über Stripe. Die Anwendung ist vollständig responsiv und gewährleistet eine reibungslose Funktionalität auf allen Geräten und legt Wert auf sichere Benutzerauthentifizierung mit JWT und Bcrypt.',
         'Das Admin-Dashboard ermöglicht Administratoren die vollständige Kontrolle über Inventar, Bestellungen und Benutzer. Es umfasst Echtzeitanalysen, CRUD-Operationen, Bestandsverwaltung und herunterladbare Berichte, alles in einer intuitiven Benutzeroberfläche, die auf Effizienz ausgelegt ist. Das Backend folgt den RESTful API-Prinzipien und ist mit einer sauberen MVC-Architektur organisiert. Das Projekt wurde in etwa sechs Wochen abgeschlossen, einschließlich Planung, UI/UX-Design, Entwicklung, Testen und Bereitstellung über Plattformen wie Vercel und Render.',
       ]
     },
@@ -271,14 +271,14 @@ const projects: Project[] = [
     'File upload for product images and downloadable reports (CSV/PDF)',
 
     '💳 Payments & Transactions',
-    'Secure checkout with Stripe or Razorpay integration',
+    'Secure checkout with Stripe integration',
     'Order confirmation system with real-time updates',
     'Optional email notifications for order status (Post-MVP)',
 
     '📈 Results & Impact',
     'Centralized product and order management via admin dashboard',
     'Fast page loads and mobile-first design for better UX',
-    'Scalable deployment using Vercel (frontend) and Render/AWS (backend)',
+    'Scalable deployment using Vercel (frontend) and Render (backend)',
     'Foundation for future enhancements like multi-vendor support and mobile apps'
   ],
 
@@ -303,20 +303,20 @@ const projects: Project[] = [
     'Datei-Upload für Produktbilder und herunterladbare Berichte (CSV/PDF)',
 
     '💳 Zahlungen & Transaktionen',
-    'Sicherer Checkout mit Stripe- oder Razorpay-Integration',
+    'Sicherer Checkout mit Stripe-Integration',
     'Bestellbestätigungssystem mit Echtzeit-Updates',
     'Optionale E-Mail-Benachrichtigungen zum Bestellstatus (Post-MVP)',
 
     '📈 Ergebnisse & Wirkung',
     'Zentrale Verwaltung von Produkten und Bestellungen über das Admin-Dashboard',
     'Schnelle Ladezeiten und Mobile-First-Design für optimale UX',
-    'Skalierbare Bereitstellung über Vercel (Frontend) und Render/AWS (Backend)',
+    'Skalierbare Bereitstellung über Vercel (Frontend) und Render (Backend)',
     'Basis für zukünftige Erweiterungen wie Multi-Vendor-Unterstützung und mobile Apps'
   ]
 },
     additionalImages: [
       '/CustomerDashboard.png',
-      '/CustomerWishlist.png',
+      '/CustomerWishList.png',
       '/LoginPage.png',
       '/RegistrationPage.png',
       '/ShoppingCart.png',

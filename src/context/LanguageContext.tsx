@@ -55,7 +55,7 @@ const translations: Translations = {
     de: "Mich"
   },
   aboutText1: {
-    en: "I am a Full Stack Web Developer with over 4 years of experience in designing and developing scalable, high-performance web applications. With a Bachelor’s degree in Software Engineering from Rana University, Kabul, I have a strong foundation in computer science and software development principles.",
+    en: "I am a Full Stack Web Developer with 4 years of experience in designing and developing scalable, high-performance web applications. With a Bachelor’s degree in Software Engineering from Rana University, Kabul, I have a strong foundation in computer science and software development principles.",
     de: "Ich bin ein Full-Stack-Webentwickler mit über 5 Jahren Erfahrung in der Gestaltung und Entwicklung skalierbarer, leistungsstarker Webanwendungen. Mit einem Bachelor-Abschluss in Software Engineering von der Rana University in Kabul verfüge ich über ein solides Fundament in Informatik und den Prinzipien der Softwareentwicklung."
   },
   aboutText2: {

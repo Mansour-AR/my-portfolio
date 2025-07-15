@@ -63,7 +63,7 @@ const Experience = () => {
         en: 'Automotive Service Center Limited (ASC Ltd)',
         de: 'Automotive Service Center Limited (ASC Ltd)'
       },
-      period: '05/2019 -12/2020',
+      period: '01/2019 -12/2020',
       description: {
         en: 'Developed a PHP-based web solution for automotive management using the Laravel framework, including invoicing and customer administration. Built dynamic, responsive web applications with HTML, CSS, JavaScript, and PHP, optimized MySQL databases, resulting in improved query performance and reliable business operations.',
         de: 'Entwicklung einer PHP-basierten Weblösung für das Automobilmanagement mit dem Laravel-Framework, einschließlich Rechnungsstellung und Kundenverwaltung. Erstellung dynamischer, responsiver Webanwendungen mit HTML, CSS, JavaScript und PHP, Optimierung von MySQL-Datenbanken, was zu verbesserter Abfrageleistung und zuverlässigen Geschäftsabläufen führte.'
